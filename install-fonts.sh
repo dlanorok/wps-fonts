@@ -1,5 +1,4 @@
-sudo mkdir /usr/share/fonts/kingsoft
-sudo cp -r ./wps /usr/share/fonts/kingsoft
-sudo chown -R $USER:$USER /usr/share/fonts/kingsoft
-sudo chmod -R o+rw,g+rw /usr/share/fonts/kingsoft
+sudo cp -r ./fonts /usr/share/fonts
+sudo chown -R $USER:$USER /usr/share/fonts
+sudo chmod -R o+rw,g+rw /usr/share/fonts
 sudo fc-cache -vfs
